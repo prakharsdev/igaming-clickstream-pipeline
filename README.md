@@ -2,7 +2,7 @@
 
 ##  Overview
 
-I’m building this project to simulate and analyze real-time player behavior for an iGaming platform. The goal is to replicate how online casinos generate clickstream data so I can explore how it flows through a modern data stack—from raw ingestion to actionable insights.
+I’m building this project to simulate and analyze real-time player behavior for an iGaming platform. The goal is to replicate how online casinos generate clickstream data so I can explore how it flows through a modern data stack, from raw ingestion to actionable insights.
 
 This is still a work in progress, but it already covers a lot of ground: a FastAPI-based generator, realistic event simulation using `mimesis`, auto-saving to timestamped CSVs, and a modular structure that makes it easy to extend. I plan to evolve this into a full-fledged streaming and analytics pipeline with PostgreSQL, dbt, and eventually Kafka + Spark.
 
